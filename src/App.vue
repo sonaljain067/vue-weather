@@ -22,8 +22,7 @@
         <div class="all-details">
           <div class="dimension">
             <p>Longitude: {{weather.coord.lon}}</p>
-            <p>Latitude:
-              <v-spacer></v-spacer>  {{weather.coord.lat}}</p>
+            <p>Latitude:{{weather.coord.lat}}</p>
           </div>
           <br/>
           <div class="about-temp">
